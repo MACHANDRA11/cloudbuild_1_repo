@@ -23,6 +23,7 @@ steps:
     git config --global user.name "MACHANDRA11"
     git config --global user.email "chandrakanth.maddana@mediaagility.com"
     git config --list
+    cd cloudbuild_1_repo
     cp -r tf_template_file tf_copy
     ls 
     cd tf_copy
